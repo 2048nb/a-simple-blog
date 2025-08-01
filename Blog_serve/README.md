@@ -76,7 +76,7 @@ Blog_serve/
 ### 安装依赖
 
 ```bash
-pip install fastapi uvicorn python-multipart PyMySQL DBUtils bcrypt PyJWT
+pip install -r requirements.txt
 ```
 
 ### 配置数据库

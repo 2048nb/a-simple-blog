@@ -26,7 +26,7 @@ async def verify_token_middleware(request: Request, call_next):
     """
     # 放行的路径
     if (request.method == "OPTIONS" or 
-        request.url.path in ["/user/login", "/user/register", "/post/get_all/"]):
+        request.url.path in ["/user/login", "/user/register", "/post/get_all/", "/", "/docs", "/openapi.json"]):
         return await call_next(request)
 
     token = request.headers.get("token")
