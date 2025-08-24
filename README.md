@@ -29,7 +29,6 @@
 **后端技术栈**
 - FastAPI
 - MySQL
-- SQLAlchemy ORM
 - JWT 认证
 - 数据库连接池
 
